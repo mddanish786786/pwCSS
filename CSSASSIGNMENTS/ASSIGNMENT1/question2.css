@@ -1,0 +1,47 @@
+/*
+
+
+1: justify-content:
+
+This property defines how the content inside a flex container should be distributed along the main axis. It controls the alignment of items in the flex container.
+Possible values include:
+flex-start: Items are packed at the start of the main axis.
+flex-end: Items are packed at the end of the main axis.
+center: Items are centered along the main axis.
+space-between: Items are evenly distributed along the main axis with the first item at the start and the last item at the end.
+space-around: Items are evenly distributed along the main axis with equal space around them.
+space-evenly: Items are evenly distributed along the main axis with equal space around them, including at the start and end.
+
+2. align-items:
+
+This property defines how the content inside a flex container should be aligned along the cross axis. It controls the alignment of items perpendicular to the main axis.
+Possible values include:
+flex-start: Items are aligned at the start of the cross axis.
+flex-end: Items are aligned at the end of the cross axis.
+center: Items are centered along the cross axis.
+baseline: Items are aligned such that their baselines align.
+stretch: Items are stretched to fill the container along the cross axis.
+
+3. gap:
+
+This property sets the spacing between flex items in a flex container. It is a shorthand property for row-gap and column-gap.
+For example: gap: 10px; would set both the row and column gap to 10 pixels.
+
+4. flex-direction:
+
+This property defines the direction of the main axis in a flex container. It determines the direction in which flex items are placed in the flex container.
+Possible values include:
+row: Items are placed along the main axis in the direction of the writing mode.
+row-reverse: Same as row but in the opposite direction.
+column: Items are placed along the cross axis.
+column-reverse: Same as column but in the opposite direction.
+
+5. flex-wrap:
+
+This property controls whether the flex container should wrap its items onto multiple lines if they can't all fit in a single line.
+Possible values include:
+nowrap: All flex items are on one line (the default).
+wrap: Flex items wrap onto multiple lines if needed.
+wrap-reverse: Flex items wrap onto multiple lines in the opposite direction.
+
+*/
