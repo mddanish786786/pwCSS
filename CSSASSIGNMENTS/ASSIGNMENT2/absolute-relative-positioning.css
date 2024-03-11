@@ -1,0 +1,33 @@
+/*
+
+Relative Positioning:
+
+When an element is set to position: relative;, it is positioned relative to its normal position in the document flow.
+If you apply properties like top, right, bottom, or left to a relatively positioned element, it will be offset from its normal position, based on its own dimensions. However, the surrounding elements in the document flow will not be affected by its new position.
+Other elements on the page will still occupy the space that the relatively positioned element would have taken up if it were in its normal position.
+css
+Copy code
+.relative-box {
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+Absolute Positioning:
+
+When an element is set to position: absolute;, it is positioned relative to its closest positioned (not static) ancestor, if any. If there is no such ancestor, it is positioned relative to the initial containing block, usually the <html> element.
+Absolute positioning takes the element out of the normal document flow, so it doesn't affect the layout of surrounding elements. Other elements will act as if the absolutely positioned element doesn't exist.
+The positioning is then achieved by using the top, right, bottom, or left properties.
+css
+Copy code
+.absolute-box {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+}
+In summary, the key distinction lies in how the positioned element interacts with its surroundings:
+
+Relative positioning: The element is positioned relative to its normal position in the document flow, affecting the layout of surrounding elements.
+
+Absolute positioning: The element is positioned relative to its closest positioned ancestor or the initial containing block, and it is taken out of the normal document flow, having no impact on the layout of surrounding elements.
+
+*/
